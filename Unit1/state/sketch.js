@@ -22,6 +22,11 @@ switch(state){
   background('green');
   text("state 2" , 100, 100);
   break ;
+  case 3:
+  background('yellow');
+  text("state 3" , 100, 100);
+  break ;
+
  }
 }
 function mouseReleased() {
