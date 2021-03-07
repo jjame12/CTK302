@@ -8,7 +8,7 @@ function draw() {
 
 //  rect(x,100,100,100) ;
 text("LOVE ME NOW BEFORE IT'S TOO LATE",x,height/2)
-textSize(48)
+textSize(35)
 x = x + 10 ;
 
 if (x > width){
