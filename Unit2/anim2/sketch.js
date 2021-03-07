@@ -1,4 +1,4 @@
-
+let x = 0;
 
 function setup() {
   createCanvas(500, 500);
@@ -10,7 +10,8 @@ background(100) ;
 
 push() ;
 translate(x,0) ;
-rect(100,100,100,100) ;
+fill('yellow');
+ellipse(300, 35, 100, 100); ;
 pop() ;
 
 x = x + 10 ;
