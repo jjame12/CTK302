@@ -1,7 +1,7 @@
 let state = 0;
 let timer = 0;
 let x = 0;
-let velocity = 1 ;
+let velocity = 1;
 
 
 function setup() {
@@ -19,9 +19,9 @@ function draw() {
   //car rectcode
   fill('green')
   rect(x, 750, 75, 20);
-  x = x + velocity ;
+  x = x + velocity;
   if (x > width) {
-    x = 0 ;
+    x = 0;
   }
 
   switch (state) {
@@ -59,12 +59,12 @@ function draw() {
 
   }
 
-  timer = timer +1;
-  if (timer > 100);{
-  timer = 0;
-  state++;
-  if (state > 2) state = 0;
-}
+  timer = timer + 1;
+  if (timer > 100); {
+    timer = 0;
+    state++;
+    if (state > 2) state = 0;
+  }
 
 
 }
