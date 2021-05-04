@@ -33,7 +33,7 @@ function gotData(data) {
 
   // iterate through the array of data and create an object and push it on an array called bubbles
   for (let i = 0; i < data.length; i++) {
-    bubbles.push(new Bubble(data[i].Name, data[i].Food, data[i][ 'pick the best place to eat'])); // THESE Name and Shape need to match your column names in your spreadsheet!
+    bubbles.push(new Bubble(data[i].Name, data[i].Food)); // THESE Name and Shape need to match your column names in your spreadsheet!
   }
 
 }
@@ -67,7 +67,7 @@ this.vel = createVector(random(5), 0) ;   }
   //  } else {
   //    ellipse(this.pos.x, this.pos.y, 50, 50);
 //    }
-     triangle(this.pos.x, this.pos.y, 80, 80);
+     triangle(this.pos.x, this.pos.y,this.pos.x + 20, this.pos.y,this.pos.x + 10,this.pos.y - 20);
      text(this.name, this.pos.x, this.pos.y - 16);
      text(this.food, this.pos.x, this.pos.y + 16);
 

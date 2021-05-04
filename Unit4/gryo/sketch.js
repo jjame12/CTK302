@@ -5,6 +5,7 @@ var y = 0;
 var z = 0;
 var xPosition = 0;
 var yPosition = 0;
+var image = 0
 
 // var bunnyImage;
 var cars = [];
